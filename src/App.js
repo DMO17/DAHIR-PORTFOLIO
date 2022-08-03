@@ -1,5 +1,13 @@
+import { NavBar } from "./components/Navbar";
+import { Technologies } from "./components/Technologies";
+
 function App() {
-  return <div>hello world</div>;
+  return (
+    <div>
+      <NavBar />
+      <Technologies />
+    </div>
+  );
 }
 
 export default App;
