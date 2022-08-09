@@ -27,6 +27,10 @@ export const NavBar = () => {
       id: 5,
       link: "contact",
     },
+    {
+      id: 5,
+      link: "socials",
+    },
   ];
 
   return (

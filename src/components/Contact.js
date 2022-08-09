@@ -6,6 +6,8 @@ export const Contact = () => {
   const form = useRef();
 
   const [messageSent, setMessageSent] = useState(false);
+  const [empty, setEmpty] = useState("");
+
   const {
     register,
     handleSubmit,
@@ -16,10 +18,10 @@ export const Contact = () => {
     if (data) {
       emailjs
         .sendForm(
-          "service_ue0ukaj",
-          "template_sg5isqr",
+          process.env.REACT_APP_SERVICE,
+          process.env.REACT_APP_TEMPLATE,
           form.current,
-          "qRm5AFXJkeL71Y8w9"
+          process.env.REACT_APP_KEY
         )
         .then(
           (result) => {
@@ -30,6 +32,7 @@ export const Contact = () => {
           }
         );
     }
+    setEmpty("");
     setMessageSent(true);
   };
 
@@ -53,6 +56,7 @@ export const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
+              defaultValue={empty}
               type="text"
               name="name"
               placeholder="Enter your name"
@@ -60,6 +64,7 @@ export const Contact = () => {
               {...register("name", { required: true })}
             />
             <input
+              defaultValue={empty}
               type="email"
               name="email"
               placeholder="Enter your email"
@@ -67,6 +72,7 @@ export const Contact = () => {
               {...register("email", { required: true })}
             />
             <input
+              defaultValue={empty}
               type="text"
               name="subject"
               placeholder="Enter the subject"
@@ -74,6 +80,7 @@ export const Contact = () => {
               {...register("subject", { required: true })}
             />
             <textarea
+              defaultValue={empty}
               name="message"
               placeholder="Enter your message"
               rows="10"
