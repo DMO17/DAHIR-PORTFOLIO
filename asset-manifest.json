@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/DAHIR-PORTFOLIO/static/css/main.0a3049d0.css",
+    "main.js": "/DAHIR-PORTFOLIO/static/js/main.c265f316.js",
+    "static/media/travel log.PNG": "/DAHIR-PORTFOLIO/static/media/travel log.297bb99289c2aa14d25a.PNG",
+    "static/media/11-graphql.png": "/DAHIR-PORTFOLIO/static/media/11-graphql.fc6b9451733c620ceb86.png",
+    "static/media/15-netlify.png": "/DAHIR-PORTFOLIO/static/media/15-netlify.1230692bb636005c66e2.png",
+    "static/media/14-heroku.png": "/DAHIR-PORTFOLIO/static/media/14-heroku.624b99a5255c305e84c5.png",
+    "static/media/book search engine.PNG": "/DAHIR-PORTFOLIO/static/media/book search engine.1105631d39aae716853e.PNG",
+    "static/media/12-MySQL.png": "/DAHIR-PORTFOLIO/static/media/12-MySQL.6e42b2a035b28f240021.png",
+    "static/media/12-mongodb.png": "/DAHIR-PORTFOLIO/static/media/12-mongodb.916295b92ca7158ac256.png",
+    "static/media/2-react.png": "/DAHIR-PORTFOLIO/static/media/2-react.0cf951a69d8e58f83f9d.png",
+    "static/media/9-node.png": "/DAHIR-PORTFOLIO/static/media/9-node.952a9ea986dcfa5229ad.png",
+    "static/media/13-github.png": "/DAHIR-PORTFOLIO/static/media/13-github.3b9e32903aa89111875d.png",
+    "static/media/4-html.png": "/DAHIR-PORTFOLIO/static/media/4-html.2ba4fabc69a89a8f71e6.png",
+    "static/media/note Taker.PNG": "/DAHIR-PORTFOLIO/static/media/note Taker.4ad67610b490630b4821.PNG",
+    "static/media/8-tailwind.png": "/DAHIR-PORTFOLIO/static/media/8-tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/5-css.png": "/DAHIR-PORTFOLIO/static/media/5-css.69a82c2d9e45c933a9cb.png",
+    "static/media/text-editor.PNG": "/DAHIR-PORTFOLIO/static/media/text-editor.dc6fbe4c8132b7797a2e.PNG",
+    "static/media/1-javascript.png": "/DAHIR-PORTFOLIO/static/media/1-javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/DAHIR-PORTFOLIO/index.html",
+    "main.0a3049d0.css.map": "/DAHIR-PORTFOLIO/static/css/main.0a3049d0.css.map",
+    "main.c265f316.js.map": "/DAHIR-PORTFOLIO/static/js/main.c265f316.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a3049d0.css",
+    "static/js/main.c265f316.js"
+  ]
+}
