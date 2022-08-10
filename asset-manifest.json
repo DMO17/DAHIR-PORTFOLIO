@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/DAHIR-PORTFOLIO/static/css/main.0a3049d0.css",
-    "main.js": "/DAHIR-PORTFOLIO/static/js/main.c265f316.js",
+    "main.css": "/DAHIR-PORTFOLIO/static/css/main.b0c8f0d2.css",
+    "main.js": "/DAHIR-PORTFOLIO/static/js/main.d27d92ad.js",
+    "static/media/s1.PNG": "/DAHIR-PORTFOLIO/static/media/s1.2a0b86152f0a60505502.PNG",
     "static/media/travel log.PNG": "/DAHIR-PORTFOLIO/static/media/travel log.297bb99289c2aa14d25a.PNG",
+    "static/media/pokedeck.PNG": "/DAHIR-PORTFOLIO/static/media/pokedeck.1e14bb9125ee82a686bf.PNG",
     "static/media/11-graphql.png": "/DAHIR-PORTFOLIO/static/media/11-graphql.fc6b9451733c620ceb86.png",
     "static/media/15-netlify.png": "/DAHIR-PORTFOLIO/static/media/15-netlify.1230692bb636005c66e2.png",
     "static/media/14-heroku.png": "/DAHIR-PORTFOLIO/static/media/14-heroku.624b99a5255c305e84c5.png",
@@ -19,11 +21,11 @@
     "static/media/text-editor.PNG": "/DAHIR-PORTFOLIO/static/media/text-editor.dc6fbe4c8132b7797a2e.PNG",
     "static/media/1-javascript.png": "/DAHIR-PORTFOLIO/static/media/1-javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/DAHIR-PORTFOLIO/index.html",
-    "main.0a3049d0.css.map": "/DAHIR-PORTFOLIO/static/css/main.0a3049d0.css.map",
-    "main.c265f316.js.map": "/DAHIR-PORTFOLIO/static/js/main.c265f316.js.map"
+    "main.b0c8f0d2.css.map": "/DAHIR-PORTFOLIO/static/css/main.b0c8f0d2.css.map",
+    "main.d27d92ad.js.map": "/DAHIR-PORTFOLIO/static/js/main.d27d92ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3049d0.css",
-    "static/js/main.c265f316.js"
+    "static/css/main.b0c8f0d2.css",
+    "static/js/main.d27d92ad.js"
   ]
 }
