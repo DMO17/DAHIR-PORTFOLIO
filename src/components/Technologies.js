@@ -139,7 +139,7 @@ export const Technologies = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md sm:file:hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md sm:duration-200 sm:hover:scale-105 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
