@@ -2,16 +2,17 @@ import textEditor from "../assets/text-editor.PNG";
 import travelLog from "../assets/travel log.PNG";
 import bookSearchEngine from "../assets/book search engine.PNG";
 import noteTaker from "../assets/note Taker.PNG";
+import pockemon from "../assets/pokedeck.PNG";
+import shopFun from "../assets/s1.PNG";
 import { ProjectCard } from "./ProjectCard";
 
 const portfolios = [
   {
     id: 1,
     title: "Shop-Fun E-commerce app",
-    projectImg:
-      "https://media.istockphoto.com/vectors/seamless-question-mark-asking-questions-quiz-background-pattern-vector-id1335403960?s=612x612",
+    projectImg: shopFun,
     githubLink: "https://github.com/DMO17/e-commerce-app-client",
-    liveDemoLink: "https://food-4u.herokuapp.com/",
+    liveDemoLink: "https://shop-fun.herokuapp.com/",
     techs: "REACT|NODEJS|EXPRESS|MONGODB|STRIPE",
   },
   {
@@ -77,10 +78,9 @@ const portfolios = [
   {
     id: 9,
     title: "Pokedecks",
-    projectImg:
-      "https://media.istockphoto.com/vectors/seamless-question-mark-asking-questions-quiz-background-pattern-vector-id1335403960?s=612x612",
+    projectImg: pockemon,
     githubLink: "https://github.com/DMO17/pokemon-deck",
-    liveDemoLink: "#",
+    liveDemoLink: "https://dmo17.github.io/pokemon-deck/",
     techs: "REACT|WEB-API",
   },
   {
@@ -187,7 +187,7 @@ export const Project = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-4 sm:px-0">
           {portfolios.map((project) => (
-            <ProjectCard {...project} />
+            <ProjectCard {...project} key={project.id} />
           ))}
         </div>
       </div>

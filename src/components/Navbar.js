@@ -28,7 +28,7 @@ export const NavBar = () => {
       link: "contact",
     },
     {
-      id: 5,
+      id: 6,
       link: "socials",
     },
   ];
