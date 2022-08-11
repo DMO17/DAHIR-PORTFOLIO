@@ -5,6 +5,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Fragment } from "react";
 
+import myPDF from "../assets/DAHIR-MOHAMED-CV.pdf";
+
 const links = [
   {
     id: 1,
@@ -24,7 +26,7 @@ const links = [
         GitHub <FaGithub size={30} />
       </>
     ),
-    href: "https://github.com/",
+    href: "https://github.com/DMO17",
     logo: <FaGithub size={50} />,
   },
   {
@@ -34,7 +36,7 @@ const links = [
         Mail <HiOutlineMail size={30} />
       </>
     ),
-    href: "dmoha0123@gmail.com",
+    href: "mailto:dmoha0123@gmail.com",
     logo: <HiOutlineMail size={50} />,
   },
   {
@@ -44,9 +46,9 @@ const links = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "/resume.pdf",
+    href: myPDF,
     style: "rounded-br-md",
-    download: true,
+    download: "CV",
     logo: <BsFillPersonLinesFill size={50} />,
   },
 ];
@@ -86,7 +88,7 @@ const Footer = () => {
       name="socials"
       className="flex justify-center items-center w-full h-40 px-4 text-white bg-black "
     >
-      {links.map(({ id, href, style, logo }) => (
+      {links.map(({ id, href, logo, download }) => (
         <div
           key={id}
           className=" px-4  hover:mb-[30px] hover:rounded-md duration-300"
@@ -96,6 +98,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             href={href}
+            download={download}
           >
             {logo}
           </a>

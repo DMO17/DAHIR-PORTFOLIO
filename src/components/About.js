@@ -12,23 +12,19 @@ export const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Recent graduate in full stack development from the University of
+          Birmingham. I am eager to learn new skills at every opportunity and
+          enjoy challenging environments; allowing me to grow in knowledge as a
+          coder and as an employee.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          I am an Innovative problem-solver who is passionate about developing
+          full stack applications with a focus on backend operations involving
+          data structure and creating Restful Api's. Strengths in creativity,
+          teamwork, and building projects from ideation to execution.
         </p>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Typewriter from "typewriter-effect";
+import myPDF from "../assets/DAHIR-MOHAMED-CV.pdf";
 
 export const Home = () => {
   const HeroImage =
@@ -33,13 +34,14 @@ export const Home = () => {
               }}
             />
           </h2>
-
-          <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-            Resume
-            <span className="group-hover:rotate-90 duration-300">
-              <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-            </span>
-          </div>
+          <a className="contact-info-item" href={myPDF} download="cv">
+            <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+              Resume
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+            </div>
+          </a>
         </div>
 
         <div>

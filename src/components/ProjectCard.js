@@ -9,7 +9,7 @@ export const ProjectCard = ({
   return (
     <div
       key={id}
-      className="shadow-md shadow-gray-600 rounded-lg sm:duration-200 sm:hover:scale-105"
+      className="shadow-md shadow-gray-600 rounded-lg md:duration-200 lg:hover:scale-105 my-8"
     >
       <img src={projectImg} alt={title} className="rounded-md" />
       <h1 className="text-center text-3xl sm:text-4xl font-bold text-white">

@@ -185,7 +185,7 @@ export const Project = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-4 sm:px-0">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           {portfolios.map((project) => (
             <ProjectCard {...project} key={project.id} />
           ))}
